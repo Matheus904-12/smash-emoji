@@ -11,6 +11,7 @@ import Button from './components/Button';
 import CircleButton from './components/CircleButton';
 import IconButton from './components/IconButton';
 import EmojiPicker from "./components/EmojiPicker";
+import EmojiList from './components/EmojiList';
 import EmojiSticker from './components/EmojiSticker';
 
 const PlaceholderImage = require("./assets/images/background-image.png");
