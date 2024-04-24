@@ -33,6 +33,9 @@ const containerStyle = useAnimatedStyle(() => {
             if (scaleImage.value !== imageSize * 2) {
                 scaleImage.value = scaleImage.value * 2;
             }
+            else if(scaleImage.value == imageSize * 2) {
+                scaleImage.value = scaleImage.value / 2;
+            }
         });
     const imageStyle = useAnimatedStyle(() => {
         return {
